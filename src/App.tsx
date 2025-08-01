@@ -135,7 +135,7 @@ function DashboardCards({ triggerError }: { triggerError: () => void }) {
           <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📱</span> <span className="font-medium">Target Number</span> : 517 712-9381</div>
           <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">💾</span> <span className="font-medium">Target Name</span> : David Micah Sanchez</div>
           <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📱</span> <span className="font-medium">Device Model</span> : Iphone</div>
-          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">💾</span> <span className="font-medium">Location</span> : Ohio</div>
+          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📍</span> <span className="font-medium">Location</span> : Ohio</div>
           <div className="text-xs text-gray-400 mt-2">* The device information will sync every 30 minutes.</div>
         </div>
         {/* Recent Calls Trigger Card */}
@@ -195,8 +195,8 @@ function DashboardCards({ triggerError }: { triggerError: () => void }) {
 function Footer() {
   return (
     <footer className="flex items-center justify-center px-4 md:px-8 py-3 md:py-4 border-t border-gray-200 bg-[#f8f8f8] mt-auto">
-      The price for this new server has been reduced to $300
-      <span className="text-red-600 line-through text-base md:text-lg font-bold"> $400</span>
+      The price for this new server has been reduced to $350
+      <span className="text-red-600 line-through text-base md:text-lg font-bold"> $480</span>
     </footer>
   );
 }
